@@ -39,8 +39,8 @@ async def start(client, message):
             InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/kmtz_channel_v3'),
             InlineKeyboardButton('⭕️ UᎮDΛTΞS ⭕️', url='https://t.me/Prv_35')
             ],[      
-            InlineKeyboardButton('🫂🔰 𝗛𝗘𝗟𝗣 🔰', callback_data='help'),
-            InlineKeyboardButton('☮️CONTACT ME☮️', url='https://t.me/KL_2335'),
+            InlineKeyboardButton('🔰 𝗛𝗘𝗟𝗣 🔰', callback_data='help'),
+            InlineKeyboardButton('☮️ CONTACT ME ☮️', url='https://t.me/KL_2335'),
             InlineKeyboardButton('⏮️ ΛBOUT ⏯️', callback_data='about')
             ],[
             InlineKeyboardButton('☑️ 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌  ☑️', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
@@ -78,16 +78,16 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🧞‍♂️ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ 🧞‍♂️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/kmtz_channel_v3'),
+            InlineKeyboardButton('⭕️ UᎮDΛTΞS ⭕️', url='https://t.me/KL_2335')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/AboutAadhi'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🔰 HΞLᎮ 🔰', callback_data='help'),
+            InlineKeyboardButton('☮️ CONTACT ME ☮️', url='https://t.me/KL_2335'),
+            InlineKeyboardButton('⏮️ ΛBOUT ⏯️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('☑️ 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌  ☑️', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
