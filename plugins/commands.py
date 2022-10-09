@@ -81,7 +81,7 @@ async def start(client, message):
             InlineKeyboardButton('🧞‍♂️ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ 🧞‍♂️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/kmtz_channel_v3'),
-            InlineKeyboardButton('⭕️ UᎮDΛTΞS ⭕️', url='https://t.me/KL_2335')
+            InlineKeyboardButton('⭕️ UᎮDΛTΞS ⭕️', url='https://t.me/Prv_35')
             ],[      
             InlineKeyboardButton('🔰 𝗛𝗘𝗟𝗣 🔰', callback_data='help'),
             InlineKeyboardButton('☮️ CONTACT ME ☮️', url='https://t.me/KL_2335'),
